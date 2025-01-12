@@ -18,7 +18,6 @@ function App() {
   if(isCheckingAuth && !authUser){
     
   }
-
   console.log({authUser})
   return (
     <div>
@@ -33,5 +32,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
